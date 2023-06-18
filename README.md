@@ -3,16 +3,16 @@
 ## Network
 
 Дублирование запроса на сервер `www.1cont.ru` для получения одинакового изображения
-![Дублирование](./network-duplication.png)
+![Дублирование](./images/network-duplication.png)
 
 Лишний размер ресурса наблюдается у ресурсов `base.js`, `community.js`, `sdk.js`
-![Лишний размер](./network-redundant-size.png)
+![Лишний размер](./images/network-redundant-size.png)
 
 Долгая загрузка у `auth_check`, `utmEventManager.js`, самого документа
-![Долгая загрузка](./network-long-loading.png)
+![Долгая загрузка](./images/network-long-loading.png)
 
 Много блокирующих ресурсов: `360_light.js`, `code.js`, `tag.js`, `userip`, `context.js`
-![Блокирующие](./network-blocking-requests.png)
+![Блокирующие](./images/network-blocking-requests.png)
 
 ## Performance
 
@@ -45,4 +45,4 @@ body > div.container-fluid.defaultBackground > div.row.body__wrapper > div.body 
 
 #### Unused JS: 2355kB
 
-![Coverage](./coverage.png)
+![Coverage](./images/coverage.png)
